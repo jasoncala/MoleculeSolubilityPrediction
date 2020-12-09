@@ -2,7 +2,7 @@
 import pandas as pd;
 
 #reading the dataset
-sol = pd.read_csv('delaney.csv')
+sol = pd.read_csv('csv_files/delaney.csv')
 
 from rdkit import Chem
 mol_list = [Chem.MolFromSmiles(element) for element in sol.SMILES]
@@ -60,4 +60,4 @@ Y = Y.rename("logS")
 
 dataset = pd.concat([X,Y], axis=1)
 
-dataset.to_csv('delaney_solubility_with_descriptors.csv', index=False)
+dataset.to_csv('csv_files/delaney_solubility_with_descriptors.csv', index=False)

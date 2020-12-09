@@ -1,7 +1,7 @@
 import pandas as pd 
 from sklearn.ensemble import ExtraTreesRegressor
 
-dataset = pd.read_csv("delaney_solubility_with_descriptors.csv")
+dataset = pd.read_csv("csv_files/delaney_solubility_with_descriptors.csv")
 
 df = dataset.copy()
 target = 'logS'

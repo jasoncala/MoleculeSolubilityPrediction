@@ -43,7 +43,7 @@ def user_input_features():
 	return features
 input_df = user_input_features()
 
-dataset_raw = pd.read_csv("delaney_solubility_with_descriptors.csv")
+dataset_raw = pd.read_csv("csv_files/delaney_solubility_with_descriptors.csv")
 dataset = dataset_raw.drop(columns=['logS'])
 df = pd.concat([input_df, dataset], axis = 0)
 
@@ -65,7 +65,7 @@ st.sidebar.header("Check Actual Solubility")
 formula = st.sidebar.text_input('Chemical Formula (SMILES format) ', 'ClCC(Cl)(Cl)Cl')
 
 #Make it show the actual solubility
-og = pd.read_csv('delaneycomplete.csv')
+og = pd.read_csv('csv_files/delaneycomplete.csv')
 count = 0
 count2 = 0
 for i in og.SMILES:
