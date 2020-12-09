@@ -1,0 +1,3 @@
+name: molecules_app
+dependencies:
+  - rdkit
