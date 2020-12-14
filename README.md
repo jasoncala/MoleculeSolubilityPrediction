@@ -10,5 +10,7 @@ https://pubs.acs.org/doi/10.1021/ci034243x
 
 - **_molecules_app.py_** is what creates the app which displays all the information based on user inputted SMILE and displays the predicted solubility value. It also displays the actual solubility value if the molecule was part of the original dataset.
 
+A showcase of the app can be seen at: https://youtu.be/hjzKOxBzH-E
+
 This project was done for learning purposes.
 Inspired by John Delaney and Chanin Nantasenamat.
