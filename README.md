@@ -17,4 +17,4 @@ A showcase of the app can be seen at: N/A
 This project was done for learning purposes.
 Inspired by John Delaney and Chanin Nantasenamat.
 
-**This project has been updated using flask and matplotlib for better user experience and will soon be updated on github**
+**This project has been updated using flask and matplotlib for better user experience and will soon be updated on this repo**
